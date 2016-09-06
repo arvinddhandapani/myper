@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `server_master` (
   `server_username` varchar(100) NOT NULL,
   `server_password` varchar(100) NOT NULL,
   `description` varchar(500) NOT NULL,
-  `category` int(11) NOT NULL,
+  `category` varchar(11) NOT NULL,
   `status` varchar(10) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=951 ;
